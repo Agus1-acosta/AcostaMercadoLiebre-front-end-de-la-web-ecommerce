@@ -1,6 +1,31 @@
-.bg-yelow {
+body{
+    font-family: 'Roboto';
+};
+
+.bg-yellow {
     background-color: #EAC926;
-}
+};
+
 .bg-light-grey {
     background-color: #ebebeb;
-}
+};
+
+.Oscuro-grey{
+    background-color : #666666;
+};
+
+.p-1{
+    padding:12px;
+};
+
+.p-2{
+    padding:24px;
+};
+
+.p-3{
+    padding:18px;
+};
+
+.p-4-doble{
+    padding:16px;
+};
