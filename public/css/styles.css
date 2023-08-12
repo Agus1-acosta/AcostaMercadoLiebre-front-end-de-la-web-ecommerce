@@ -1,31 +1,32 @@
+
 body{
-    font-family: 'Roboto';
-};
+    font-family: "Roboto", sans-serif;
+}
 
-.bg-yellow {
+.bg-yellow{
     background-color: #EAC926;
-};
+}
 
-.bg-light-grey {
+.bg-light-grey{
     background-color: #ebebeb;
-};
+}
 
 .Oscuro-grey{
-    background-color : #666666;
-};
+    background-color : #000000;
+}
 
 .p-1{
     padding:12px;
-};
+}
 
 .p-2{
     padding:24px;
-};
+}
 
 .p-3{
     padding:18px;
-};
+}
 
 .p-4-doble{
     padding:16px;
-};
+}
