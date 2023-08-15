@@ -16,17 +16,30 @@ body{
 }
 
 .p-1{
-    padding:12px;
+    font-size:12px;
 }
 
 .p-2{
-    padding:24px;
+    font-size:24px;
 }
 
 .p-3{
-    padding:18px;
+    font-size:18px;
 }
 
 .p-4-doble{
-    padding:16px;
+    font-size:16px;
+}
+
+.menu{
+    font-size: 2em;
+    padding-left:130px;
+}
+
+.sepa-infe{
+    padding-bottom:10px;
+}
+
+.sepa-izquier{
+    padding-left:40px;
 }
