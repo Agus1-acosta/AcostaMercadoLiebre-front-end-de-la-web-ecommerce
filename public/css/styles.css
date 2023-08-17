@@ -11,6 +11,10 @@ body{
     background-color: #ebebeb;
 }
 
+.bg-white{
+    background-color : white;
+}
+
 .Oscuro-grey{
     background-color : #000000;
 }
@@ -37,9 +41,40 @@ body{
 }
 
 .sepa-infe{
-    padding-bottom:10px;
+    margin:10px;
 }
 
 .sepa-izquier{
     padding-left:40px;
 }
+
+.vw-90{
+ width:90vw;   
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-1p{
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.border-grey{
+    background-color :#ebebeb;
+}
+
+/* tablet */
+@media(min-width:520px){
+    /* esconder descripcion */
+    .md-product-shadow{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+} 
+
+/* desktop */
+@media(min-width:1280px){
+    
+} 
