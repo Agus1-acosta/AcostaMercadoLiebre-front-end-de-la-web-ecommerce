@@ -1,80 +1,233 @@
-
-body{
-    font-family: "Roboto", sans-serif;
+* {
+    box-sizing: border-box;
 }
 
-.bg-yellow{
+header{
     background-color: #EAC926;
 }
 
-.bg-light-grey{
+body{
+    font-family: "Roboto", sans-serif;
     background-color: #ebebeb;
 }
 
-.bg-white{
-    background-color : white;
+footer{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.Oscuro-grey{
-    background-color : #000000;
+main{
+    width: 90%;
+    margin: auto;
 }
 
-.p-1{
-    font-size:12px;
+.anuncio{
+    width: 100%;
 }
 
-.p-2{
-    font-size:24px;
+.img-log{
+    width: 50%;
 }
 
-.p-3{
-    font-size:18px;
+.titulo-barra{
+    text-align: center;
 }
 
-.p-4-doble{
-    font-size:16px;
+.text-oferta{
+    display: flex;
+    justify-content: center
 }
 
-.menu{
+.section-oferta{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+    margin-top: 15px;
+}
+
+.regalo-oferta{
     font-size: 2em;
-    padding-left:130px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;   
 }
 
-.sepa-infe{
-    margin-bottom:10px;
+.seguriti-oferta{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.sepa-izquier{
-    padding-left:40px;
+.copyrigth{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
-.vw-90{
- width:90vw;   
+.principal_title{ 
+    font-weight: 400;
+    text-align: center;
 }
 
-.mx-auto{
+.busqueda {
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 5px;
+}
+.menu{
+    border-radius: 8px;
+    background-color:#1259c3;
+    font-size: 2em;
+    width: 50px;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
-.border-1p{
-    border-top-style: solid;
-    border-top-width: 1px;
+li{
+    font-size: 12px;
 }
 
-.border-grey{
-    background-color :#ebebeb;
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* tablet */
-@media(min-width:520px){
-    /* esconder descripcion */
-    .md-product-shadow{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+.nav a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+
+.imagenes{
+    border-bottom: dashed#ebebeb;
+    width: 100%;
+}
+
+.div-article{
+    border-top: solid 1px #ebebeb;
+    margin-bottom: 10px;
+    border: 15px;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.botton{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: -84%;
+    top: -30px;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.descrip-product{
+    margin-top: 1px;
+    margin-left: 1rem;
+}
+
+p{
+    font-size: 12px;
+}
+
+.tarjeta{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.header-h{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 361px){
+    .header-h{
+        font-size: small;
+        text-align: center;
+        justify-content: center;
     }
-} 
-
-/* desktop */
-@media(min-width:1280px){
-    
-} 
+    .principal_title{
+        display: flex;
+        text-align: center;
+    }
+    .menu{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav li{
+        margin: 0 5px;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div-article{
+        width: 45%;
+        margin: 5px;
+    }
+}
+@media (min-width: 768px){
+    .header-h, .nav{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .nav{
+        display: flex;
+    }
+    .ul-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav li{
+        margin: 0 10px;
+    }
+    .nav a{
+        font-size: 20px;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div-article{
+        width: 23%;
+    }
+}
+@media (max-width: 360px){
+    .nav{
+        display: none;
+    }
+}
